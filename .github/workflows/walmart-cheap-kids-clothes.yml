@@ -2,8 +2,8 @@ name: Walmart Cheap Kids Clothes
 
 on:
   # Run on a schedule (daily at 9 AM UTC = 4 AM EST / 1 AM PST)
-  schedule:
-    - cron: "0 9 * * *"
+  # schedule:
+  #   - cron: "0 9 * * *"
 
   # Allow manual triggering from GitHub Actions UI
   workflow_dispatch:
