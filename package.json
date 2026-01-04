@@ -1,19 +1,13 @@
 {
-  "name": "walmart-kids-clothes-scraper",
+  "name": "Grant's personal scraper",
   "version": "1.0.0",
-  "description": "Scrapes Walmart for kids clothes under $2 and sends email notifications",
+  "description": "My wife has asked me to scrape the web",
   "main": "src/index.ts",
   "scripts": {
     "walmart-cheap-kids-clothes": "bun run src/walmart-cheap-kids-clothes.ts",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": [
-    "scraper",
-    "walmart",
-    "puppeteer",
-    "email"
-  ],
-  "author": "",
+  "author": "Grant Sander",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.5",
